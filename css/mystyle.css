@@ -1,0 +1,240 @@
+/*css reset*/
+	body,div{
+		margin: 0;
+		padding: 0;
+	}
+	/*导航栏*/
+body{
+  font-family: microsoft yahei;
+}
+/*导航栏*/
+nav {
+  position: absolute;
+  /*使导航栏可以漂浮在图片之上*/
+  z-index: 10;
+  border: 0;
+  padding: 5px;
+  background-color: rgba(0,0,0,.5);
+  font-size: 16px;
+  width: 100%;
+}
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus
+.nav-pills > li.active > a:visited {
+  background-color: #ff8c3c;
+  color: #fff;
+  border-radius: 15px;
+}
+.nav-pills li {
+  padding-left: 12px;
+}
+.nav-pills li a {
+  color: #fff;
+  line-height: 30px;
+}
+.nav> li a:hover,
+.nav> li a:visited {
+  color: #fff;
+  background-color: #ff8c3c;
+  border-radius: 15px;
+}
+@media (min-width:1024px), (min-width:980px)and(max-width:1023px) {
+  header .header-content img {
+    width: 100%;
+    height: 100%;
+  }
+  nav{
+    width: 100%;
+  }
+}
+@media (max-width: 979px) {
+  header .header-content img {
+    width: 980px;
+    height: auto;
+  }
+  header .header-content > div {
+    width: 650px;
+    left: 0;
+  }
+  nav{
+    width: 980px;
+  }
+}
+  .container .img-pc-show img {
+  	width: 980px;
+  	height: auto;
+  }
+}
+header .header-content {
+  position: relative;
+  /*图片要设置为相对定位*/
+}
+header .header-content > div {
+  position: absolute;
+  /*使文字可以漂浮在图片之上*/
+  left: 10%;
+  top: 25%;
+}
+header .header-content > div span{
+  font-size: 62px;
+  color: #fff;
+  letter-spacing: 10px;
+}
+header .header-content .header-word .title_one{
+	margin-left: -100px;
+	margin-top: -25px;
+	font-size: 35px;
+	letter-spacing: 10px;
+}
+header .header-content .header-word .title_two{
+	margin-left: 400px;
+	margin-top: 30px;
+	font-size: 35px;
+	letter-spacing: 10px;
+	color: rgb(255,255,255);
+}
+header .header-content .header-word span{
+	display: block;
+	margin-left: -20px;
+}
+header .header-content .header-word{
+  width: 800px;
+  color: #fff;
+  letter-spacing: 4px;
+}
+	/*页面主体*/
+	.container{
+		margin-top: 100px;
+		width:100%;
+		/*outline:black solid 2px;*/
+	}
+	.container .img-pc-show{
+		width: 100%;
+		text-align: center;
+	}
+	.container .img-app-show{
+		text-align: center;
+	}
+	/*项目名称*/
+	.container > p{
+		color: rgb(52,195,124);
+		font-size:25px;
+		margin-top: 10px;
+		margin-left: 150px;
+		/*outline:blue solid 1px;*/
+	}
+	.container-word{
+		width: 100%;
+		text-align: center;
+		margin: 50px 0;
+	}
+	.container > img{
+		margin-top: -10px;
+		margin-left: 105px;
+	}
+	.container > .row > .col-lg-3 > .website{
+		margin-left: 105px;
+		margin-top: 20px;
+		color:rgb(52,195,124);
+		font-size: 16px;
+		/*outline:red solid 2px;*/
+	}
+	.container > .row > .col-lg-3 > .website > a{
+		text-decoration: none;
+		color:rgb(52,195,124);
+	}
+	.container > .row > .col-lg-3 > .website > a:hover{
+		text-shadow:1px 1px 2px #29a567;
+	}
+	/*项目图片展示部分*/
+	.container > .row > .col-lg-12{
+		width: 100%;
+		margin-top: 30px;
+		margin-left: 0px;
+		/*outline: green solid 2px;*/
+	}
+	.img_display{
+		margin-left: 250px;
+	}
+	.img_a,.img_b,.img_c,.img_d{
+		max-width: 100%;
+		height: auto;
+	}
+	.img_b{
+		margin-top: 20px;
+	}
+	.img_c,.img_d{
+		margin-top: 20px;	
+	}
+	/*最下方“返回按钮”所在div的样式*/
+	.return{
+		width:100%;
+		height:100px;
+		display:block;
+		text-align:center;
+	}
+	/*“返回按钮”的样式*/
+	.return_button{
+		width:250px;
+		height:50px;
+		margin-top: 10px;
+		background-color: #3686BF;
+		color: #fff;
+		border:3px solid rgb(54,134,191);
+		border-radius: 4px;
+		box-shadow: 1px 1px 1px #29a567;
+	}
+	.return a{
+		text-decoration: none;
+	}
+/*脚部*/
+footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+  background: #ff8c3c;
+}
+.footer-content {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+}
+.footer-module {
+  float: left;
+  width: 35%;
+  height: 100%;
+  padding-top: 50px;
+}
+.footer-module span {
+  font-size: 16px;
+  display: block;
+  color: #fff;
+  padding: 0;
+}
+.footer-link {
+  float: left;
+  width: 35%;
+  height: 100%;
+  padding-top: 50px;
+ padding-left: 100px;
+}
+.footer-link a,
+.footer-link span,.footer-QRcode p{
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  padding: 0;
+}
+.footer-QRcode{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  padding-top: 50px;
+}
+@media (max-width: 979px){
+  footer,.footer-content{
+    width: 980px;
+  }
+}

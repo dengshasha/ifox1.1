@@ -1,0 +1,352 @@
+/*header和footer*/
+body{
+  font-family: microsoft yahei;
+}
+/*导航栏*/
+nav {
+  position: absolute;
+  /*使导航栏可以漂浮在图片之上*/
+  z-index: 10;
+  border: 0;
+  padding: 5px;
+  background-color: rgba(0,0,0,.5);
+  font-size: 16px;
+}
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus
+.nav-pills > li.active > a:visited {
+  background-color: #ff8c3c;
+  color: #fff;
+  border-radius: 15px;
+}
+.nav-pills li {
+  padding-left: 12px;
+}
+.nav-pills li a {
+  color: #fff;
+  line-height: 30px;
+}
+.nav> li a:hover,
+.nav> li a:visited {
+  color: #fff;
+  background-color: #ff8c3c;
+  border-radius: 15px;
+}
+@media (min-width:1024px), (min-width:993px)and(max-width:1023px) {
+  header .header-content img {
+    width: 100%;
+    height: 100%;
+  }
+  nav{
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  header .header-content img {
+    width: 1040px;
+    height: auto;
+  }
+  header .header-content > div {
+    width: 650px;
+    left: 0;
+  }
+  nav{
+    width: 1040px;
+  }
+}
+
+header .header-content {
+  position: relative;
+  /*图片要设置为相对定位*/
+}
+header .header-content > div {
+  position: absolute;
+  /*使文字可以漂浮在图片之上*/
+  left: 10%;
+  top: 35%;
+}
+/*脚部*/
+footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+  background: #ff8c3c;
+}
+.footer-content {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+}
+.footer-module {
+  float: left;
+  width: 35%;
+  height: 100%;
+  padding-top: 50px;
+}
+.footer-module span {
+  font-size: 16px;
+  display: block;
+  color: #fff;
+  padding: 0;
+}
+.footer-link {
+  float: left;
+  width: 35%;
+  height: 100%;
+  padding-top: 50px;
+ padding-left: 100px;
+}
+.footer-link a,
+.footer-link span,.footer-QRcode p{
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  padding: 0;
+}
+.footer-QRcode{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  padding-top: 50px;
+}
+@media (max-width: 992px){
+  footer,.footer-content{
+    width: 1040px;
+  }
+}
+/*页面主体*/
+body{
+		font-family:microsoft yahei;
+	}
+header .header-content .header-word{
+  width: 800px;
+  color: #fff;
+  letter-spacing: 4px;
+}
+header .header-content .header-word > span{
+  font-size: 62px;
+  color: white;
+  letter-spacing: 10px;
+}
+header .header-content > div {
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.top-img{
+	width: 100%;
+	height: 500px;
+}
+.top-world{
+	position: relative;
+	left: 300px;
+	top: 100px;
+	font-size:36px;
+	color: white;
+	
+}
+.title1{
+	margin:0 auto;
+	margin-top: 30px;
+	width: 180px;
+	height: 60px;
+	font-size: 26px;
+	text-align: center;
+	line-height:60px; 
+	color: white;
+	background-color: #ff8c3c;
+	border-radius: 90px 90px 90px 90px;
+	margin-bottom: 30px;
+}
+.title2{
+	margin:0 auto;
+	margin-top: 50px;
+	width: 230px;
+	height: 60px;
+	font-size: 26px;
+	text-align: center;
+	line-height:60px; 
+	color: white;
+	background-color: #ff8c3c;
+	border-radius: 90px 90px 90px 90px;
+	margin-bottom: 100px;
+}
+.title3{
+	margin:0 auto;
+	margin-top: 50px;
+	width: 210px;
+	height: 60px;
+	font-size: 26px;
+	text-align: center;
+	line-height:60px; 
+	color: white;
+	background-color: #ff8c3c;
+	border-radius: 90px 90px 90px 90px;
+	margin-bottom: 40px;
+}
+.block-box{
+	width: 100%;
+	padding-bottom: 100px;
+}
+@media (max-width: 980px){
+	.container .row{
+		width: 980px;
+	}
+	.row-img{
+		float: left;
+		width: 300px;
+	}
+	.row-word{
+		float: left;
+		width: 600px;
+	}
+}
+
+/*网站建设*/
+.center-text-3{
+	padding-bottom: px;
+	height: 5%;
+	margin:0 auto;
+	font-size:20px; 
+	line-height: 50px;
+	text-align: center;
+	color: #777;
+}
+.text-heading{
+	padding-top: 10px;
+	font-size: 30px;
+	color: #666;
+}
+.main-text{
+	font-size: 17px;
+	color: #777;
+	letter-spacing: 2px;
+}
+.col-line{
+	padding-top: 60px;
+}
+.container .col-md-4{
+	position: right;
+}
+/*网站设计与咨询*/
+.col-box{
+	margin: 25px;
+	height: 100px;
+}
+.small-ico{
+	float: left;
+	margin-right: 40px;
+	padding-top: 20px;
+}
+.question-text{
+	font-size: 17px;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+}
+.answer-text{
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+/*移动应用开发*/
+.center-text-1{
+	padding-top: -50px;
+	padding-bottom: 70px;
+	height: 5%;
+	margin:0 auto;
+	font-size:20px; 
+	line-height: 50px;
+	text-align: center;
+	color: #777;
+}
+.center-text{
+	width: 8%;
+	height: 5%;
+	margin:0 auto;
+	font-size:25px; 
+	line-height: 50px;
+	text-align: center;
+	color: #777;
+
+}
+
+.big-box{
+	margin:0 auto;
+	height: 350px;
+}
+.box1{
+	
+	float: left;
+	border:1px;
+	border-style: none solid none solid;
+	width: 15%;
+	height: 180px;
+	border-color: #ff8c3c;
+	margin-left: 12.5%;
+}
+.box2{
+	float: left;
+	border:1px;
+	border-style: none solid none none;
+	width: 15%;
+	height: 180px;
+	border-color: #ff8c3c;
+}
+.box3{
+	float: left;
+	border:1px;
+	border-style: none solid none none;
+	width: 15%;
+	height: 180px;
+	border-color: #ff8c3c;
+}
+.box-img{
+	text-align: center;
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+}
+.ico-1{
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	margin-top:11%;
+	margin-bottom: 10px;
+}
+
+.box-heading{
+	padding-top: 20px;
+	width: 50%;
+	height: 50px;
+	
+	font-size: 22px;
+	color: #ff8c3c;
+	margin: 0 auto;
+	text-align: center;
+}
+.box-text{
+	padding-top: 30px;
+	width: 88%;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #ff8c3c;
+	text-align: center;
+}
+/*服务优势*/
+.center-text-2{
+	padding-top: 25px;
+	padding-bottom: 70px;
+	height: 5%;
+	margin:0 auto;
+	font-size:20px; 
+	line-height: 50px;
+	text-align: center;
+	color: #777;
+}
+@media only screen and (max-width: 880px) {
+	.big-box{
+		width: 880px;
+	}
+}
